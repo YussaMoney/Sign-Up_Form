@@ -1,0 +1,112 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  border: 0;
+}
+body {
+  height: 100vh;
+  width: 100vw;
+}
+main {
+  display: flex;
+  height: 100%;
+}
+.main-section {
+  width: 35%;
+  background-image: url(./green_leaf.jpeg);
+  background-position: center;
+}
+.side-section {
+  width: 60%;
+}
+.side-section .upper-bar {
+  margin-bottom: 10px;
+  /* background-color: white; */
+  height: 70%;
+  padding: 80px 0px 0px 20px;
+}
+.side-section .lower-bar {
+  background-color: lightgray;
+  height: 30%;
+}
+img {
+  height: 50px;
+  border-radius: 6px;
+}
+main .main-section .logo {
+  background-color: black;
+  color: white;
+  width: 100%;
+  margin-top: 25%;
+  font-size: xx-large;
+  margin-bottom: 80%;
+  opacity: 0.45;
+}
+.img-details {
+  margin-left: 50px;
+  color: white;
+}
+a {
+  color: white;
+  font-weight: bolder;
+}
+a:hover {
+  color: brown;
+}
+input {
+  background-color: lightslategray;
+  width: 90%;
+  height: 30px;
+  margin-bottom: 20px;
+}
+form {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-between;
+  padding: 10px;
+}
+form .last-name {
+  margin-right: 70px;
+}
+form .phone {
+  margin-right: 36px;
+}
+form .phone input {
+  width: 80%;
+}
+form .confirm-pwd input {
+  width: 72%;
+}
+form .email input {
+  width: 104%;
+}
+form .first-name input {
+  width: 87%;
+}
+button {
+  border-radius: 8px;
+  border: 2px solid;
+  color: white;
+  padding: 10px 40px;
+  background-color: grey;
+  font-weight: bolder;
+  margin-bottom: 20px;
+}
+.upper-bar .info {
+  margin-bottom: 20px;
+  margin-left: 10px;
+}
+.upper-bar .margin {
+  margin-bottom: 50px;
+  margin-left: 10px;
+}
+.upper-bar .capitalise {
+  font-weight: bolder;
+  font-size: larger;
+  margin-left: 10px;
+}
+.lower-bar .pad {
+  padding: 30px;
+}
