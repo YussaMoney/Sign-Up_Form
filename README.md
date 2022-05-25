@@ -7,6 +7,7 @@ It is done with flex layout.
 
 - Html5
 - CSS
+- Linters
 
 ## Getting Started
 
@@ -23,9 +24,7 @@ To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
-Html
-
-css
+Web browser(chrome)
 
 ## Author
 
@@ -33,6 +32,7 @@ css
 
 - Github: [@YussaMoney](https://github.com/YussaMoney)
 - Twitter: [@YussaMoney](https://twitter.com/YussaMoney)
+- Linkedin: [@YussaMoney](https://www.linkedin.com/in/yussamoney)
 
 ## 🤝 Contributing
 
@@ -47,4 +47,4 @@ Give a ⭐️if you like this project!
 - [Teekaytech](https://github.com/teekaytech)
 - [Jonny Auh](https://www.unsplash.com/@jonnyauh)
 - [Unsplash](https://www.unsplash.com)
-- [The Odin Project](https://www.theodinproject.com)
+- [The Odin Project](https://www.theodinproject.com/lessons/node-path-intermediate-html-and-css-sign-up-form)
