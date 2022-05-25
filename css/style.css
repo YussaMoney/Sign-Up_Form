@@ -53,14 +53,14 @@ main {
   width: 65%;
 }
 .upper-bar {
-  height: 35%;
+  height: 29%;
   background-color: #f9fafb;
-  padding: 60px 0 0 40px;
+  padding: 40px 0 0 40px;
 }
 .info {
   font-weight: bold;
   font-size: large;
-  margin-bottom: 25px;
+  margin-bottom: 20px;
 }
 .info-bottom {
   font-weight: bold;
@@ -68,79 +68,59 @@ main {
 }
 .mid-bar {
   padding-left: 40px;
-  height: 30%;
+  height: 40%;
+  width: 75%;
+}
+.form-heading {
+  margin: 15px 0;
+}
+.form-name,
+.email-phone,
+.password-confirm {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+input {
+  color: black;
+  font-size: large;
+  padding-left: 10px;
+  border: 1px solid #e5e7eb;
+  border-radius: 5px;
+  height: 30px;
+  width: 20vw;
+}
+.form-name input:hover,
+.email-phone input:hover {
+  border: 1px solid #1d4ed8;
+}
+.confirm-pwd input,
+.pwd input {
+  border: 1px solid #b91c1c;
+}
+.incorrect {
+  font-size: small;
+  color: #b91c1c;
 }
 .lower-bar {
-  height: 35%;
-  padding: 40px 0 0 40px;
+  height: 28.5%;
+  padding: 30px 0 0 40px;
   background-color: #f9fafb;
 }
 .lower-bar button {
   background-color: #596d48;
   padding: 15px 50px;
-  border-radius: 5px;
+  border-radius: 10px;
   color: white;
   font-size: large;
   font-weight: bold;
 }
 .login {
   font-size: large;
-  margin-top: 40px;
+  margin-top: 30px;
 }
 .login a {
   text-decoration: none;
   color: #596d48;
   font-weight: bold;
 }
-/*  background-color: lightslategray;
-  width: 90%;
-  height: 30px;
-  margin-bottom: 20px;
-} */
-/* form {
-  background-color: #ffffff;
-  display: flex;
-  flex-wrap: wrap;
-  height: 40%;
-  width: 100%;
-  justify-content: space-between;
-  padding: 10px;
-} */
-/* form .last-name {
-  margin-right: 70px;
-}
-form .phone {
-  margin-right: 36px;
-}
-form .phone input {
-  width: 80%;
-}
-form .confirm-pwd input {
-  width: 72%;
-}
-form .email input {
-  width: 104%;
-}
-form .first-name input {
-  width: 87%;
-} */
-/* button {
-  border-radius: 8px;
-  border: 2px solid;
-  color: white;
-  padding: 10px 40px;
-  background-color: grey;
-  font-weight: bolder;
-  margin-bottom: 20px;
-} */
-/* .upper-bar .info {
-  margin-bottom: 20px;
-  margin-left: 10px;
-} */
-/* .upper-bar .margin {
-  margin-bottom: 50px;
-  margin-left: 10px;
-} */
-/* .lower-bar .pad {
-  padding: 30px;
-} */
