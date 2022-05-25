@@ -3,6 +3,7 @@
   margin: 0;
   box-sizing: border-box;
   border: 0;
+  font-family: sans-serif, "Times New Roman", Times, serif;
 }
 /* body {
   height: 100vh;
@@ -61,17 +62,37 @@ main {
   font-size: large;
   margin-bottom: 25px;
 }
+.info-bottom {
+  font-weight: bold;
+  font-size: large;
+}
 .mid-bar {
-  padding-left: 30px;
+  padding-left: 40px;
   height: 30%;
 }
 .lower-bar {
   height: 35%;
-  padding-left: 40px;
+  padding: 40px 0 0 40px;
   background-color: #f9fafb;
 }
-/* input {
-  background-color: lightslategray;
+.lower-bar button {
+  background-color: #596d48;
+  padding: 15px 50px;
+  border-radius: 5px;
+  color: white;
+  font-size: large;
+  font-weight: bold;
+}
+.login {
+  font-size: large;
+  margin-top: 40px;
+}
+.login a {
+  text-decoration: none;
+  color: #596d48;
+  font-weight: bold;
+}
+/*  background-color: lightslategray;
   width: 90%;
   height: 30px;
   margin-bottom: 20px;
