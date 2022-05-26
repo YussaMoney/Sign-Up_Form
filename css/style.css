@@ -1,0 +1,145 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  border: 0;
+  font-family: sans-serif, "Times New Roman", Times, serif;
+}
+
+main {
+  display: flex;
+  height: 100vh;
+}
+
+.main-section {
+  width: 35%;
+  background-image: url(../img/green_leaf.jpeg);
+  background-position: center;
+}
+
+.logo-container img {
+  height: 70px;
+  width: 70px;
+  border-radius: 6px;
+  vertical-align: middle;
+  margin-left: 50px;
+}
+
+.adjust-logo-name {
+  margin-right: 50px;
+  margin-left: 0;
+}
+
+.logo-container {
+  background-color: #110d00;
+  color: white;
+  text-align: center;
+  font-size: 55px;
+  margin-top: 30%;
+  opacity: 0.6;
+}
+
+.img-details {
+  color: white;
+  text-align: center;
+  margin: 60vh 0 10px 0;
+}
+
+.img-details a {
+  color: white;
+  font-weight: bolder;
+}
+
+.login a {
+  text-decoration: none;
+  color: #596d48;
+  font-weight: bold;
+}
+
+.img-details a:hover {
+  color: brown;
+}
+
+.side-section {
+  width: 65%;
+}
+
+.upper-bar {
+  height: 29%;
+  background-color: #f9fafb;
+  padding: 40px 0 0 40px;
+}
+
+.info {
+  font-weight: bold;
+  font-size: large;
+  margin-bottom: 20px;
+}
+
+.info-bottom {
+  font-weight: bold;
+  font-size: large;
+}
+
+.mid-bar {
+  padding-left: 40px;
+  height: 40%;
+  width: 75%;
+}
+
+.form-heading {
+  margin: 15px 0;
+}
+
+.form-name,
+.email-phone,
+.password-confirm {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+input {
+  color: black;
+  font-size: large;
+  padding-left: 10px;
+  border: 1px solid #e5e7eb;
+  border-radius: 5px;
+  height: 30px;
+  width: 20vw;
+}
+
+.confirm-pwd input,
+.pwd input {
+  border: 1px solid #b91c1c;
+}
+
+.form-name input:hover,
+.email-phone input:hover {
+  border: 1px solid #1d4ed8;
+}
+
+.incorrect {
+  font-size: small;
+  color: #b91c1c;
+}
+
+.lower-bar {
+  height: 28.5%;
+  padding: 30px 0 0 40px;
+  background-color: #f9fafb;
+}
+
+.lower-bar button {
+  background-color: #596d48;
+  padding: 15px 50px;
+  border-radius: 10px;
+  color: white;
+  font-size: large;
+  font-weight: bold;
+}
+
+.login {
+  font-size: large;
+  margin-top: 30px;
+}
