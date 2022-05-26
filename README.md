@@ -3,6 +3,10 @@
 This is a simple HTML with little styling(CSS) of a Sign-Up Form write in the format of HTML5.
 It is done with flex layout.
 
+> Homepage
+
+> ! [Sign-Up Form Page](src/assets/img/Screenshot (5).png)
+
 ## Built With
 
 - Html5
@@ -21,6 +25,10 @@ To get a local copy up and running follow these simple example steps.
 - Type `git clone`, and then paste the URL you copied in Step 3.<br>
   `$ git clone https://github.com/YussaMoney/Sign-Up_Form`
 - Press Enter. Your local copy will be created.
+
+## Live Demo
+
+[Click here](https://yussamoney.github.io/Sign-Up_Form)
 
 ### Prerequisites
 
