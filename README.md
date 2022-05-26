@@ -5,7 +5,7 @@ It is done with flex layout.
 
 > Homepage
 
-> ! [Sign-Up Form Page](src/assets/img/Screenshot (5).png)
+> ! [Sign-Up Form Page](img\Screenshot (5).png)
 
 ## Built With
 
